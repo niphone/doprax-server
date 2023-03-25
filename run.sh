@@ -26,7 +26,7 @@ chmod +x /usr/local/xray/xray
 cat <<EOF >/etc/xray/config.json
 {
   "log": {
-    "loglevel": "warning",
+    "loglevel": "warning"
   },
   "inbounds": [
     {
