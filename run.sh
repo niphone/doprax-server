@@ -26,10 +26,7 @@ chmod +x /usr/local/xray/xray
 cat <<EOF >/etc/xray/config.json
 {
   "log": {
-    "access": "/var/log/Xray/access.log",
-    "error": "/var/log/Xray/error.log",
     "loglevel": "warning",
-    "dnsLog": false
   },
   "inbounds": [
     {
