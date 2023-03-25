@@ -39,7 +39,7 @@ cat <<EOF >/etc/xray/config.json
       "settings": {
         "clients": [
           {
-            "id": ${UUID},
+            "id": "${UUID}",
             "alterId": 0
           }
         ]
@@ -58,7 +58,7 @@ cat <<EOF >/etc/xray/config.json
       "settings": {
         "clients": [
           {
-            "id": ${UUID}
+            "id": "${UUID}"
           }
         ],
         "decryption": "none"
