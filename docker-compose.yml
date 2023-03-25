@@ -1,0 +1,8 @@
+doprax-server:
+  ingress:
+    service: web
+    port: 80
+services:
+  web:
+    build: .
+    restart: always
